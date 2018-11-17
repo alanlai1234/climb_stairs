@@ -14,7 +14,7 @@ print(climb(3))
 #bottom-up
 
 def climb_bottom(s):
-    if s==1 or s==2 or s==3:
+    if s==1 or s==2 or s==4:
         return s
     table=[0]*(s+1)
     table[1]=1
