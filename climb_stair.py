@@ -7,7 +7,7 @@ def climb(s):
         return s
     else:
         return climb(s-1)+climb(s-2)+climb(s-3)
-print(climb(6))
+print(climb(3))
 
 
 
